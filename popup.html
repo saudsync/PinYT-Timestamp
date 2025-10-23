@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>PinYT Timestamps</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            min-width: 250px;
+            padding: 10px;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+        h3 {
+            margin-top: 0;
+            color: #cc0000; /* YouTube Red */
+        }
+        #bookmark-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #cc0000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-bottom: 15px;
+        }
+        #bookmark-btn:hover {
+            background-color: #e60000;
+        }
+        #bookmarks-list {
+            list-style: none;
+            padding: 0;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .bookmark-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px;
+            margin-bottom: 5px;
+            background-color: white;
+            border-radius: 4px;
+            border-left: 5px solid #cc0000;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .bookmark-item:hover {
+            background-color: #f0f0f0;
+        }
+        .bookmark-item span {
+            flex-grow: 1;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-right: 10px;
+        }
+        .delete-btn {
+            color: gray;
+            font-weight: bold;
+            cursor: pointer;
+            padding: 0 5px;
+        }
+        .delete-btn:hover {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h3>PinYT Timestamps</h3>
+    <button id="bookmark-btn">📌 Pin Current Time</button>
+    <ul id="bookmarks-list">
+        </ul>
+    <script src="popup.js"></script>
+</body>
+</html>
