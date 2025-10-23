@@ -1,2 +1,3 @@
 # PinYT-Timestamp
 Bookmark and manage specific playback times in YouTube videos. Jump instantly to any saved moment with a single click.
+ Never lose your spot in a long YouTube video again! PinYT timestamp lets you create a library of specific timestamps for any YouTube video. Key Features: <ul><li>📌 Pin: Click the extension button to instantly save the current video's title, URL, and playback time.</li><li>➡️ Jump: Click any saved pin in the popup to open the video right to that moment and automatically start playing.</li><li>🗑️ Manage: Easily view and delete your saved pins right from the extension popup.</li></ul>Simple, lightweight, and essential for video researchers and content bingers.
